@@ -1,0 +1,97 @@
+img.mainpickle {
+    width: 22vh;
+    height: 22vh;
+}
+
+div.mainpickle {
+    background-color: yellow;
+    padding-left: 3vh;
+    padding-right: 1vh;
+    width: 24vh;
+    height: 24vh;
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    border-radius: 200px;
+    border-style: solid;
+}
+
+.alert {
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: black;
+    font-size: 30px;
+}
+
+img.sword {
+    aspect-ratio: 1 / 1;
+    width: 6vh;
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
+
+img.shield {
+    aspect-ratio: 794 / 980;
+    width: 5vh;
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
+
+img.heart {
+    aspect-ratio: 1205 / 1043;
+    width: 6vh;
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
+
+img.gut {
+    aspect-ratio: 618 / 651;
+    width: 6vh;
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
+
+img.character {
+    position: fixed;
+    height: 50vh;
+    width: 40.4vh;
+    top: 100px;
+    right: 20px;
+}
+
+progress {
+    position: fixed;
+    width: 40.4vh;
+    background: red;
+    height: 30px;
+    top: 30px;
+    right: 20px;
+}
+
+img.enemy {
+    position: fixed;
+    left: 20px;
+}
+
+body {
+    background-image: url("https://i.ibb.co/rwZjkk0/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.modinfo {
+    height: 25vh;
+    width: 25vh;
+    border-style: solid;
+}
